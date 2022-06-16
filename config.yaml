@@ -1,3 +1,6 @@
+# cspell:words hugo-geekdoc
+
 baseURL: http://example.org/
+theme: hugo-geekdoc
 languageCode: en-us
 title: My New Hugo Site
