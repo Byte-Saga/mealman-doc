@@ -1,0 +1,6 @@
+# cspell:words gdoc
+
+more:
+  - name: News
+    ref: "/posts"
+    icon: "gdoc_notification"
