@@ -1,0 +1,7 @@
+# cspell:words gdoc
+
+header:
+  - name: GitHub
+    ref: https://github.com/Byte-Saga/mealman-doc
+    icon: gdoc_github
+    external: true
