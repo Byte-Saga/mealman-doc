@@ -4,7 +4,9 @@ title: Documentation
 
 **Meal Manager** is an Android app to efficiently manage meals on a shared flat.
 
-It aims to help track daily meal consumptions and associated expenses so that the expenses can be split within flat members. The app can be accessed from anywhere, anytime. All you need is a working internet connection.
+It aims to help track daily meal consumptions and associated expenses so that the expenses can be split within flat members.
+The app can be accessed from anywhere, anytime.
+All you need is a working internet connection.
 
 ## Features
 
