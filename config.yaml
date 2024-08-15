@@ -1,6 +1,43 @@
-# cspell:words hugo-geekdoc
+# cspell:words geekdoc goldmark pygments shortcode
 
-baseURL: http://example.org/
+baseURL: https://Byte-Saga.github.io/mealman-doc/
 theme: hugo-geekdoc
 languageCode: en-us
-title: My New Hugo Site
+title: Meal Manager
+
+# Required to get well formatted code blocks
+pygmentsUseClasses: true
+pygmentsCodeFences: true
+disablePathToLower: true
+enableGitInfo: true
+
+# Required if you want to render robots.txt template
+enableRobotsTXT: true
+
+markup:
+  goldmark:
+    # Needed for mermaid shortcode
+    renderer:
+      unsafe: true
+  tableOfContents:
+    startLevel: 1
+    endLevel: 9
+
+taxonomies:
+  tag: tags
+
+params:
+  # (Optional, default none) Set source repository location. Used for 'Edit page' links.
+  # You can also specify this parameter per page in front matter.
+  geekdocRepo: "https://github.com/Byte-Saga/mealman-doc"
+
+  # (Optional, default none) Enable 'Edit page' links. Requires 'GeekdocRepo' param
+  # and the path must point to the parent directory of the 'content' folder.
+  # You can also specify this parameter per page in front matter.
+  geekdocEditPath: edit/main/
+
+  # (Optional, default none) Adds a "Content licensed under <license>" line to the footer.
+  # Could be used if you want to define a default license for your content.
+  geekdocContentLicense:
+    name: CC BY-SA 4.0
+    link: https://creativecommons.org/licenses/by-sa/4.0/
